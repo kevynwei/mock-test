@@ -25,10 +25,33 @@
   display: none;
 }
 
-.jobtree .checkbox.default {
-  display: inline-block;
+.jobtree .checkbox.part,
+.jobtree .checkbox.all{
+  background: #D7DCE0;
 }
 
+/* 部分选择复选框内部样式 */
+
+.jobtree .checkbox.part > div {
+  display: block;
+  height: 10%;
+  width: 60%;
+  background: #506A75;
+  margin-top: 45%;
+  margin-left: 20%;
+}
+
+/* 全选复选框内部样式 */
+.jobtree .checkbox.all > div {
+  display: block;
+  height: 30%;
+  width: 60%;
+  border-left: 2px solid #506A75;
+  border-bottom: 2px solid #506A75;
+  margin-top: 20%;
+  margin-left: 10%;
+  transform: rotate(-45deg);
+}
 
 /* 头部样式 */
 
@@ -69,10 +92,25 @@
 
 .jobtree .depart-header .name {
   font-weight: bold;
+  margin-right: 1em;
+}
+
+.jobtree .depart-header .icon {
+  display: inline-block;
+  height: 0.3em;
+  width: 0.3em;
+  border-left: 2px solid #FEFFFF;
+  border-bottom: 2px solid #FEFFFF;
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  vertical-align: baseline;
 }
 
 .jobtree .depart-header .number {
   background: #4F6974;
+  padding: 0 0.8em 0.1em;
+  margin-right: -0.8em;
+  border-radius: 0.8em;
 }
 
 /* 部门 - 列表项 */
