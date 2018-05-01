@@ -2,7 +2,7 @@
 
 一、如何验收成果
 
-  1. 直接用浏览器打开index.html
+  1. 直接用浏览器打开build文件夹下的index.html
 
   2. 将build部署在服务器后通过url运行
 
