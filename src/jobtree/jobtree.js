@@ -80,6 +80,7 @@ class JobTreeDepartment extends Component {
           break;
         case 'part':
         case 'null':
+        default:
           listChecked = true;
       }
     }
@@ -188,6 +189,7 @@ class JobTreeBody extends Component {
         <JobTreeDepartment
           departJobs={department} 
           ref={ref}
+          key={department.key}
         />
       );
     }, this);

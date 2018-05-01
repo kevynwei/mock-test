@@ -58,6 +58,7 @@
 .jobtree > header h2 {
   display: inline-block;
   margin: 0;
+  font-weight: 400;
 }
 
 .jobtree > header .btn {
@@ -74,8 +75,8 @@
 /* 树主体样式 */
 
 .jobtree .body ul {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
   list-style: none;
 }
 
@@ -116,8 +117,8 @@
 /* 部门 - 列表项 */
 
 .jobtree .department li {
-  height: 1.6em;
-  line-height: 1.6em;
+  height: 1.8em;
+  line-height: 1.8em;
 }
 
 /* 内联元素对齐 */
